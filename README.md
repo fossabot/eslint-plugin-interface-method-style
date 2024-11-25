@@ -4,7 +4,6 @@
 
 [![npm](https://img.shields.io/npm/v/eslint-plugin-interface-method-style)](https://www.npmjs.com/package/eslint-plugin-interface-method-style)
 [![npm](https://img.shields.io/npm/dt/eslint-plugin-interface-method-style)](https://www.npmjs.com/package/eslint-plugin-interface-method-style)
-  
 
 ## Table of Contents
 
@@ -14,16 +13,22 @@
 
 ## Installation
 
-```sh
-$ npm install eslint-plugin-interface-method-style --save-dev
-```
+### npm
 
 ```sh
-$ yarn add eslint-plugin-interface-method-style --dev
+npm install eslint-plugin-interface-method-style --save-dev
 ```
 
+### Yarn
+
 ```sh
-$ pnpm add eslint-plugin-interface-method-style --save-dev
+yarn add eslint-plugin-interface-method-style --dev
+```
+
+### pnpm
+
+```sh
+pnpm add eslint-plugin-interface-method-style --save-dev
 ```
 
 ## Usage
