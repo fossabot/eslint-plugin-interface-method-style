@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   release:
@@ -16,9 +16,9 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20.x'
-          cache: 'yarn'
-          registry-url: 'https://registry.npmjs.org'
+          node-version: "20.x"
+          cache: "yarn"
+          registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies
         run: yarn install --immutable
