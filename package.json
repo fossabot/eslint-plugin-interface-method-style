@@ -1,13 +1,13 @@
 {
   "name": "eslint-plugin-interface-method-style",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "type": "module",
   "scripts": {
     "test": "vitest",
     "release": "release-it",
     "type-check": "tsc --noEmit",
-    "lint": "eslint . --ext .ts",
-    "lint:fix": "eslint . --ext .ts --fix",
+    "lint": "eslint .",
     "build": "tsc"
   },
   "author": "Egor Avakumov (https://github.com/eavam)",
@@ -15,15 +15,18 @@
   "description": "",
   "packageManager": "yarn@4.5.2",
   "devDependencies": {
+    "@eslint/js": "9.15.0",
     "@release-it/conventional-changelog": "8.0.1",
     "@typescript-eslint/parser": "8.15.0",
     "@typescript-eslint/rule-tester": "8.15.0",
     "@typescript-eslint/utils": "8.15.0",
     "conventional-changelog-cli": "4.1.0",
     "eslint": "9.15.0",
+    "globals": "15.12.0",
     "prettier": "3.3.3",
     "release-it": "17.10.0",
     "typescript": "5.7.2",
+    "typescript-eslint": "8.16.0",
     "vitest": "2.1.5"
   },
   "release-it": {
